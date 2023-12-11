@@ -15,10 +15,10 @@ const ProjectCard = ({project}) => {
                 <hr className="w-1/2 mx-auto my-2"/>
                 <p className="font-semibold">{languages}</p>
                 <div className="flex justify-between">
-                    <div className="items-center flex gap-2">
-                        <Link target="_blank" to={clientCode}><FaGithub className="text-xl"/></Link>
-                        <Link target="_blank" to={serverCode}><FaServer className="text-xl"/></Link>
-                        <Link target="_blank" to={liveSite}><FaLink className="text-xl"/></Link>
+                    <div className="items-center flex gap-3">
+                        <Link target="_blank" to={clientCode}><FaGithub className="text-2xl"/></Link>
+                        <Link target="_blank" to={serverCode}><FaServer className="text-2xl"/></Link>
+                        <Link target="_blank" to={liveSite}><FaLink className="text-2xl"/></Link>
                     </div>
                   <button className="btn bg-[#c8d5e5] text-[#3c3c3c] border-none mt-2">Details</button>
                 </div>
