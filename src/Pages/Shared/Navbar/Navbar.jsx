@@ -1,9 +1,10 @@
 import { FaBars } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
 import { Link } from "react-scroll";
 
 const Navbar = () => {
     const links = <>
-        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-none" to="/">Home</Link></li>
+        <li><NavLink to="/">Home</NavLink></li>
         <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-none" to="projects">Projects</Link></li>
         <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-none" to="skills">Skills</Link></li>
         <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-none" to="experience">Experience</Link></li>
