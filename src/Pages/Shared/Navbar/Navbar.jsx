@@ -8,13 +8,12 @@ const Navbar = () => {
         <li><NavLink className="rounded-none" style={({ isActive })=> ({borderBottom: isActive ? "2px solid white" : " ", background: "transparent",})} to="/skills">Skills</NavLink></li>
         <li><NavLink className="rounded-none" style={({ isActive })=> ({borderBottom: isActive ? "2px solid white" : " ", background: "transparent",})} to="/experience">Experience</NavLink></li>
         <li><NavLink className="rounded-none" style={({ isActive })=> ({borderBottom: isActive ? "2px solid white" : " ", background: "transparent",})} to="/about">About</NavLink></li>
-        {/* <li><NavLink className="rounded-none" style={({ isActive })=> ({borderBottom: isActive ? "2px solid white" : " ", background: "transparent",})} to="/blogs">Blog</NavLink></li> */}
         <li><NavLink className="rounded-none" style={({ isActive })=> ({borderBottom: isActive ? "2px solid white" : " ", background: "transparent",})} to="/education">Education</NavLink></li>
         <li><NavLink className="rounded-none" style={({ isActive })=> ({borderBottom: isActive ? "2px solid white" : " ", background: "transparent",})} to="/contact">Contact</NavLink></li>
     </>
     return (
         <div>
-            <div className="navbar bg-[#3c3c3c] text-white px-20 flex justify-between py-5 rounded-b-full">
+            <div className="navbar z-20 bg-[#3c3c3c] text-white px-20 flex justify-between py-5 rounded-b-full">
               <div className="w-full md:w-auto items-center">
                 <div className="dropdown">
                   <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
