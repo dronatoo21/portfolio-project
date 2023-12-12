@@ -3,13 +3,12 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
     const [projects, setProjects] = useState([])
     useEffect( () => {
-        fetch("allProjects.json")
+        fetch("https://portfolio-server-alpha-lilac.vercel.app/projects")
         .then(res => res.json())
         .then(data => {
             setProjects(data)
         })
     },[])
-    console.log(projects);
     return (
         <div className="px-5 lg:px-0">
             <div>
@@ -17,7 +16,7 @@ const Projects = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-7 mt-12">
                 {
-                    projects?.map(project => <ProjectCard key={project?.id} project={project}/>)
+                    projects?.map(project => <ProjectCard key={project?._id} project={project}/>)
                 }
             </div>
         </div>
