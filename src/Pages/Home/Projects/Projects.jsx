@@ -10,7 +10,7 @@ const Projects = () => {
         })
     },[])
     return (
-        <div className="px-5 lg:px-0">
+        <div id="projects" className="px-5 lg:px-0">
             <div>
                 <h1 className="font-bold text-3xl text-center text-white mb-2">Projects</h1>
             </div>

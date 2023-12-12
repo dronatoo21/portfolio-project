@@ -1,6 +1,6 @@
 const Skills = () => {
     return (
-        <div className="text-white my-28">
+        <div id="skills" className="text-white my-28">
             <h1 className="font-bold text-3xl text-center text-white my-10">Skills</h1>
             <h1 className="font-semibold text-xl text-center text-white mb-10">- Languages and Tools-</h1>
             <div className="flex flex-row justify-center flex-wrap items-center text-center gap-6 px-3 md:px-2">

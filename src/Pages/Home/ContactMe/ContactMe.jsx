@@ -24,7 +24,7 @@ const ContactMe = () => {
         });
     };
     return (
-        <div className='mb-24 '>
+        <div id='contact' className='mb-24'>
             <h1 className="font-bold text-3xl text-center text-white my-10">Contact me</h1>
             <div className='flex justify-center flex-col md:flex-row gap-16 md:gap-32 text-center px-5 md:px-0'>
                 <div className='lg:w-1/3 mt-5'>
