@@ -5,15 +5,15 @@ import { Link } from "react-scroll";
 const Navbar = () => {
     const links = <>
         <li><NavLink to="/">Home</NavLink></li>
-        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-none" to="projects">Projects</Link></li>
-        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-none" to="skills">Skills</Link></li>
-        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-none" to="experience">Experience</Link></li>
-        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-none" to="about">About</Link></li>
-        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-none" to="education">Education</Link></li>
-        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-none" to="contact">Contact</Link></li>
+        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-xl" to="projects">Projects</Link></li>
+        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-xl" to="skills">Skills</Link></li>
+        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-xl" to="education">Education</Link></li>
+        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-xl" to="about">About</Link></li>
+        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-xl" to="experience">Experience</Link></li>
+        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-xl" to="contact">Contact</Link></li>
     </>
     return (
-        <div>
+        <div className='fixed z-20 container mx-auto'>
             <div className="navbar z-20 bg-[#3c3c3c] text-white px-20 flex justify-between py-5 rounded-b-full">
               <div className="w-full md:w-auto items-center">
                 <div className="dropdown">

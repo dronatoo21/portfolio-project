@@ -3,9 +3,9 @@ import about from "../../../assets/about.json";
 
 const AboutMe = () => {
     return (
-        <div className="mb-24">
+        <div id="about" className="mb-24">
             <h1 className="font-bold text-3xl text-center text-white mt-10">About me</h1>
-            <div id="about" className="flex flex-col lg:flex-row items-center justify-center">
+            <div className="flex flex-col lg:flex-row items-center justify-center">
                 <div>
                     <Lottie className="w-3/4" animationData={about}/>
                 </div>
