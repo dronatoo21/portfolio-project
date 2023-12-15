@@ -33,7 +33,7 @@ const ContactMe = () => {
                     <a className='flex items-center text-white gap-2 w-[150px]' href="https://www.facebook.com/profile.php?id=61554106064324"><FaFacebook className="text-2xl my-2 text-white"/><p>/mrdronatoo</p></a>
                     <a className='flex items-center text-white gap-2 w-[150px]' href="https://github.com/dronatoo21"><FaGithub className="text-2xl text-white"/><p>/dronatoo21</p></a>
                     <a className='flex items-center text-white gap-2 w-[150px]' href="https://www.linkedin.com/in/si-fahim-5463b62a4/"><FaLinkedin className="text-2xl text-white my-2"/><p>in/si-fahim</p></a>
-                    <a className='flex items-center text-white gap-2 w-[220px]'><FaRegEnvelope className="text-2xl text-white"/><p>mrdronatoo@gmail.com</p></a>
+                    <a className='flex items-center text-white gap-2 w-[220px]'><FaRegEnvelope className="text-2xl text-white"/><p>shefaislamfahim@gmail.com</p></a>
                 </div>
                 <div className='lg:w-1/3'>
                     <form className='text-white flex flex-col text-start' ref={form} onSubmit={sendEmail}>
