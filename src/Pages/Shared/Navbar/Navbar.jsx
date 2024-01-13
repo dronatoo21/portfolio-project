@@ -20,7 +20,7 @@ const Navbar = () => {
                   <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                     <FaBars className="text-base md:text-lg"/>
                   </div>
-                  <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-black rounded-box w-52">
+                  <ul tabIndex={0} className="menu menu-sm dropdown-content  z-[1] p-2 shadow bg-base-100 text-black rounded-box w-52">
                     {links}
                   </ul>
                 </div>
