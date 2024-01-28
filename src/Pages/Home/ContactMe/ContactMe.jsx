@@ -30,7 +30,7 @@ const ContactMe = () => {
                 <div className='lg:w-1/3 mt-5'>
                     <h1 className="text-xl md:text-2xl md:w-auto text-white text-start md:ml-0 font-semibold mb-5">SI FAHIM</h1>
                     <a className='flex items-center text-white gap-2 w-[150px]' href="https://twitter.com/dronatoo21"><FaTwitter className="text-2xl text-white"/><p>@dronatoo21</p></a>
-                    <a className='flex items-center text-white gap-2 w-[150px]' href="https://www.facebook.com/profile.php?id=61554106064324"><FaFacebook className="text-2xl my-2 text-white"/><p>/mrdronatoo</p></a>
+                    <a className='flex items-center text-white gap-2 w-[150px]' href="https://www.facebook.com/profile.php?id=61555084138691"><FaFacebook className="text-2xl my-2 text-white"/><p>/shefaislamfahim</p></a>
                     <a className='flex items-center text-white gap-2 w-[150px]' href="https://github.com/dronatoo21"><FaGithub className="text-2xl text-white"/><p>/dronatoo21</p></a>
                     <a className='flex items-center text-white gap-2 w-[150px]' href="https://www.linkedin.com/in/si-fahim-5463b62a4/"><FaLinkedin className="text-2xl text-white my-2"/><p>in/si-fahim</p></a>
                     <a className='flex items-center text-white gap-2 w-[250px]'><FaRegEnvelope className="text-2xl text-white"/><p>shefaislamfahim@gmail.com</p></a>
