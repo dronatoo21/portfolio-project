@@ -32,7 +32,7 @@ const ContactMe = () => {
                     <a className='flex items-center text-white gap-2 w-[150px]' href="https://twitter.com/dronatoo21"><FaTwitter className="text-2xl text-white"/><p>@dronatoo21</p></a>
                     <a className='flex items-center text-white gap-2 w-[150px]' href="https://www.facebook.com/profile.php?id=61555084138691"><FaFacebook className="text-2xl my-2 text-white"/><p>/shefaislamfahim</p></a>
                     <a className='flex items-center text-white gap-2 w-[150px]' href="https://github.com/dronatoo21"><FaGithub className="text-2xl text-white"/><p>/dronatoo21</p></a>
-                    <a className='flex items-center text-white gap-2 w-[150px]' href="https://www.linkedin.com/in/si-fahim-5463b62a4/"><FaLinkedin className="text-2xl text-white my-2"/><p>in/si-fahim</p></a>
+                    <a className='flex items-center text-white gap-2 w-[250px]' href="https://www.linkedin.com/in/shefa-islam-fahim/"><FaLinkedin className="text-2xl text-white my-2"/><p>in/shefa-islam-fahim</p></a>
                     <a className='flex items-center text-white gap-2 w-[250px]'><FaRegEnvelope className="text-2xl text-white"/><p>shefaislamfahim@gmail.com</p></a>
                 </div>
                 <div className='lg:w-1/3'>
