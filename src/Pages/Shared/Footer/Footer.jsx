@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="grid grid-flow-col gap-4">
               <Link target="_blank" to="https://www.facebook.com/profile.php?id=61554106064324"><FaFacebook className="text-2xl"/></Link>
               <Link target="_blank" to="https://twitter.com/dronatoo21"><FaTwitter className="text-2xl"/></Link>
-              <Link target="_blank" to="https://www.linkedin.com/in/si-fahim-5463b62a4/"><FaLinkedin className="text-2xl"/></Link>
+              <Link target="_blank" to="https://www.linkedin.com/in/shefa-islam-fahim/"><FaLinkedin className="text-2xl"/></Link>
               <Link target="_blank" to="https://github.com/dronatoo21"><FaGithub className="text-2xl"/></Link>
             </div>
           </nav>
