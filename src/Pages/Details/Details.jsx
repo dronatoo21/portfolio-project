@@ -1,13 +1,13 @@
 import { FaGithub, FaLink, FaServer } from "react-icons/fa";
 import { Link, useLoaderData} from "react-router-dom";
-import Navbar from "../Shared/Navbar/Navbar";
+import NavDetail from "../Shared/Navbar/NavForDetail/NavDetail";
 
 const Details = () => {
     const project = useLoaderData()
     const {cover, title, description, languages, liveSite, clientCode, serverCode} = project
     return (
         <div className="mb-10">
-            <Navbar/>
+            <NavDetail/>
             <h1 className="font-bold text-3xl mb-5 text-center text-white pt-28">{title} Details</h1>
             <div className="text-white  rounded-xl">
             <div className="card glass w-9/12 mx-auto">

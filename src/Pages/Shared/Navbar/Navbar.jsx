@@ -4,13 +4,14 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
     const links = <>
-        <li><NavLink to="/">Home</NavLink></li>
+        {/* <li><NavLink to="/">Home</NavLink></li> */}
+        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-xl" to="top">Home</Link></li>
         <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-xl" to="projects">Projects</Link></li>
         <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-xl" to="skills">Skills</Link></li>
         <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-xl" to="education">Education</Link></li>
         <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-xl" to="about">About</Link></li>
-        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-xl" to="experience">Experience</Link></li>
-        <li><Link spy={true} smooth={true} offset={-100} duration={500} className="rounded-xl" to="contact">Contact</Link></li>
+        <li><Link spy={true} smooth={true} offset={-200} duration={500} className="rounded-xl after:bg-slate-600" to="experience">Experience</Link></li>
+        <li><Link spy={true} smooth={true} offset={-300} duration={500} className="rounded-xl" to="contact">Contact</Link></li>
     </>
     return (
         <div className='fixed z-20 container mx-auto'>
@@ -24,7 +25,7 @@ const Navbar = () => {
                     {links}
                   </ul>
                 </div>
-                <h1 className="text-base md:text-2xl md:w-auto font-semibold">SHEFA ISLAM FAHIM</h1>
+                <NavLink to='/'><h1 className="text-base md:text-2xl md:w-auto font-semibold">SHEFA ISLAM FAHIM</h1></NavLink>
               </div>
               <div className="lg:block hidden">
                 <ul className="menu menu-horizontal px-1 text-white">

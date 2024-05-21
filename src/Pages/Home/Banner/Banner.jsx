@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 const Banner = () => {
     return (
-        <div className="flex flex-col-reverse md:flex-row pt-20 justify-between items-center">
+        <div id="top" className="flex flex-col-reverse md:flex-row pt-20 justify-between items-center">
             <div className="text-white md:pl-20 space-y-2 pb-14 text-center md:text-start">
                 <h1 className="md:text-3xl lg:text-5xl font-bold ">I AM FAHIM</h1>
                 <h3 className="md:text-2xl lg:text-3xl pb-5 md:pb-5 lg:pb-10">Front End Web Developer</h3>
