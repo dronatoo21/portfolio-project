@@ -1,13 +1,9 @@
 import { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import required modules
 import { Pagination } from 'swiper/modules';
-// Import Swiper style
 import 'swiper/css';
 import 'swiper/css/pagination';
-
 
 const Projects = () => {
     const [projects, setProjects] = useState([])
@@ -50,7 +46,7 @@ const Projects = () => {
                   },
                 }}
                 modules={[Pagination]}
-                className="mySwiper"
+                className="mySwiper mt-9"
             >
             {
                 projects?.map(project => (
