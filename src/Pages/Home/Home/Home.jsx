@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import Navbar from "../../Shared/Navbar/Navbar";
 import AboutMe from "../AboutMe/AboutMe";
 import Banner from "../Banner/Banner";
@@ -10,6 +11,11 @@ import Skills from "../Skills/Skills";
 const Home = () => {
     return (
         <div>
+            <Helmet>
+                <title>Si Fahim | Home</title>
+                <meta name="description" content="shefa islam fahim home page"/>
+                <link rel="canonical" href="/" />
+            </Helmet>
             <Navbar/>
             <Banner/>
             <Projects/>

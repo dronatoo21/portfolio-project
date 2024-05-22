@@ -1,8 +1,8 @@
 const Skills = () => {
     return (
         <div id="skills" className="text-white my-28">
-            <h1 className="font-bold text-xl md:text-xl lg:text-2xl text-center text-white my-10">Skills</h1>
-            <h1 className="font-semibold text-xl text-center text-white mb-10">- Languages and Tools-</h1>
+            <p className="font-bold text-xl md:text-xl lg:text-2xl text-center text-white my-10">Skills</p>
+            <p className="font-semibold text-xl text-center text-white mb-10">- Languages and Tools-</p>
             <div className="flex flex-row justify-center flex-wrap items-center text-center gap-6 px-3 md:px-2">
                 <div className="flex items-center gap-2 lg:w-[200px]"><img src="https://skillicons.dev/icons?i=js" alt="JAVASCRIPT"/>JAVASCRIPT</div>
                 <div className="flex items-center gap-2 lg:w-[200px]"><img src="https://skillicons.dev/icons?i=react" alt="REACT"/>REACT</div>

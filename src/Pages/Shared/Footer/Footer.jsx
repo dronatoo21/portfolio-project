@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="footer p-10 bg-[#525151] rounded-t-xl text-neutral-content justify-center md:justify-normal">
           <aside className="lg:flex items-center text-center">
             <img className="rounded-full h-[100px] w-[100px] md:ml-0 ml-4" src="https://i.ibb.co/xszVwVz/programmer.jpg" alt="" />
-            <h1 className="text-base md:text-2xl md:w-auto md:ml-0 ml-8 font-semibold">SI FAHIM</h1>
+            <p className="text-base md:text-2xl md:w-auto md:ml-0 ml-8 font-semibold">SI FAHIM</p>
           </aside> 
           <nav>
             <header className="footer-title md:ml-0 ml-11">Social</header> 

@@ -7,7 +7,7 @@ const ContactMe = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_l0pmbh1', 'template_0hi7g9j', form.current, '_dzfusUuJKpRjr6od')
+      emailjs.sendForm('service_l0pmbp', 'template_0hi7g9j', form.current, '_dzfusUuJKpRjr6od')
         .then((result) => {
             console.log(result);
             if(result.text === "OK"){
@@ -25,10 +25,10 @@ const ContactMe = () => {
     };
     return (
         <div id='contact' className='mb-24'>
-            <h1 className="font-bold text-xl md:text-xl lg:text-2xl text-center text-white my-10">Contact me</h1>
+            <p className="font-bold text-xl md:text-xl lg:text-2xl text-center text-white my-10">Contact me</p>
             <div className='flex justify-center flex-col md:flex-row gap-16 md:gap-32 text-center px-5 md:px-0'>
                 <div className='lg:w-1/3 mt-5'>
-                    <h1 className="text-xl md:text-2xl md:w-auto text-white text-start md:ml-0 font-semibold mb-5">SI FAHIM</h1>
+                    <p className="text-xl md:text-2xl md:w-auto text-white text-start md:ml-0 font-semibold mb-5">SI FAHIM</p>
                     <a className='flex items-center text-white gap-2 w-[150px]' href="https://twitter.com/dronatoo21"><FaTwitter className="text-xl lg:text-2xl text-white"/><p className='text-sm lg:text-base'>@dronatoo21</p></a>
                     <a className='flex items-center text-white gap-2 w-[150px]' href="https://www.facebook.com/profile.php?id=61555084138691"><FaFacebook className="text-xl lg:text-2xl my-2 text-white"/><p className='text-sm lg:text-base'>/shefaislamfahim</p></a>
                     <a className='flex items-center text-white gap-2 w-[150px]' href="https://github.com/dronatoo21"><FaGithub className="text-xl lg:text-2xl text-white"/><p className='text-sm lg:text-base'>/dronatoo21</p></a>

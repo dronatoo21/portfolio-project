@@ -17,7 +17,7 @@ const NavDetail = () => {
                     {links}
                   </ul>
                 </div>
-                <NavLink to='/'><h1 className="text-base md:text-2xl md:w-auto font-semibold">SHEFA ISLAM FAHIM</h1></NavLink>
+                <NavLink to='/'><p className="text-base md:text-2xl md:w-auto font-semibold">SHEFA ISLAM FAHIM</p></NavLink>
               </div>
               <div className="lg:block hidden">
                 <ul className="menu menu-horizontal px-1 text-white">

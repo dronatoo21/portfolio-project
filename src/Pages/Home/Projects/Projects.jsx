@@ -17,7 +17,7 @@ const Projects = () => {
     return (
         <div id="projects" className="px-5 lg:px-0">
             <div>
-                <h1 className="font-bold text-xl md:text-xl lg:text-2xl text-center text-white mb-10">Projects</h1>
+                <p className="font-bold text-xl md:text-xl lg:text-2xl text-center text-white mb-10">Projects</p>
             </div>
             {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-7 mt-12">
                 {

@@ -8,7 +8,7 @@ const ProjectCard = ({project}) => {
             <div className="card glass h-[520px] md:h-[530px] lg:h-[580px]">
               <figure><img className="lg:h-[250px] h-[200px] w-full rounded-lg" src={cover} alt="cover"/></figure>
               <div className="card-body">
-                <h2 className="card-title text-lg md:text-xl lg:text-2xl">{title}</h2>
+                <p className="card-title text-lg md:text-xl lg:text-2xl">{title}</p>
                 {
                     description?.length > 100 ? <p className="font-normal lg:text-base text-sm">{description?.slice(0, 100)} <Link to={`/details/${_id}`} className="font-bold text-blue-200">Read more...</Link></p> : <p className=" lg:text-base text-sm">{description}</p>
                 }
