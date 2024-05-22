@@ -5,7 +5,7 @@ const ProjectCard = ({project}) => {
     const {_id, cover, title, description, languages, liveSite, clientCode, serverCode} = project;
     return (
         <div className="text-white bg-[#31353b] rounded-xl">
-            <div className="card glass h-[520px] md:h-[530px] lg:h-[570px]">
+            <div className="card glass h-[520px] md:h-[530px] lg:h-[580px]">
               <figure><img className="lg:h-[250px] h-[200px] w-full rounded-lg" src={cover} alt="cover"/></figure>
               <div className="card-body">
                 <h2 className="card-title text-lg md:text-xl lg:text-2xl">{title}</h2>
