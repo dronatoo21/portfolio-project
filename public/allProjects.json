@@ -28,5 +28,14 @@
     "liveSite": "https://techtrove-treasures.web.app/",
     "clientCode": "https://github.com/dronatoo21/techtrove-treasures-client",
     "serverCode": "https://github.com/dronatoo21/techtrove-treasures-server"
+  },
+  {
+    "cover":"https://i.ibb.co/MB264CK/Screenshot-2024-05-07-143742.jpg",
+    "title":"Summer Sale",
+    "description":"Users can add to cart the items by clicking the carts and can get a discount by applying the coupon code.",
+    "languages": "HTML 5 | Tailwind | JavaScript",
+    "liveSite": "https://condemned-potato.surge.sh/",
+    "clientCode": "https://github.com/dronatoo21/summer-sale",
+    "serverCode": "https://github.com/dronatoo21/summer-sale"
   }
 ]
