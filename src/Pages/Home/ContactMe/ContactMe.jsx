@@ -7,7 +7,7 @@ const ContactMe = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_l0pmbp', 'template_0hi7g9j', form.current, '_dzfusUuJKpRjr6od')
+      emailjs.sendForm('service_4ro3fcg', 'template_a8nrkiq', form.current, 'EG0ANKWSE3zH92aHB')
         .then((result) => {
             console.log(result);
             if(result.text === "OK"){
