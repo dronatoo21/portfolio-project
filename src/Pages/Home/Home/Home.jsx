@@ -7,6 +7,8 @@ import Education from "../Education/Education";
 import Experience from "../Experience/Experience";
 // import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
+import AllProjects from "../allProjects/allProjects";
+
 
 const Home = () => {
     return (
@@ -18,7 +20,7 @@ const Home = () => {
             </Helmet>
             <Navbar/>
             <Banner/>
-            
+            <AllProjects/>
             <Skills/> 
             <Education/>
             <AboutMe/>
