@@ -5,7 +5,7 @@ import Banner from "../Banner/Banner";
 import ContactMe from "../ContactMe/ContactMe";
 import Education from "../Education/Education";
 import Experience from "../Experience/Experience";
-import Projects from "../Projects/Projects";
+// import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
             </Helmet>
             <Navbar/>
             <Banner/>
-            <Projects/>
+            
             <Skills/> 
             <Education/>
             <AboutMe/>
